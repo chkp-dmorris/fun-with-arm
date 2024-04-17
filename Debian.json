@@ -103,10 +103,11 @@
         },
         "storageProfile": {
           "imageReference": {
-            "publisher": "Debian",
-            "offer": "debian-10",
-            "sku": "10",
+            "publisher": "Canonical",
+            "offer": "0001-com-ubuntu-server-jammy",
+            "sku": "22_04-lts-gen2",
             "version": "latest"
+            " 
           },
           "osDisk": {
             "createOption": "FromImage"
